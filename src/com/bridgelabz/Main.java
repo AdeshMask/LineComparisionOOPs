@@ -20,5 +20,13 @@ public class Main {
             System.out.println("Both Lines are not Same");
         else
             System.out.println("Both lines are same");
+        int result2 = length1.compareTo(length2);
+        if (result2>0)
+            System.out.println("Line 1 is larger than line 2");
+        else if (result2 < 0)
+            System.out.println("Line 2 is greater than line1");
+        else
+            System.out.println("Both lines are parallel");
+
     }
 }
